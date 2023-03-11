@@ -3,7 +3,7 @@ import re
 import instaloader
 
 instaScrap=instaloader.Instaloader()
-profile=instaloader.Profile.from_username(instaScrap.context, 'syedfaizan844')
+profile=instaloader.Profile.from_username(instaScrap.context, 'cristiano')
 print("User Name:", profile.username)
 print("User Id:",profile.userid)
 emails = re.findall(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b", profile.biography)
